@@ -1886,15 +1886,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4620998167008108, guid: c25ac4fdc903e7d49a7520930673ecd6, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4620998167008108, guid: c25ac4fdc903e7d49a7520930673ecd6, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4620998167008108, guid: c25ac4fdc903e7d49a7520930673ecd6, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4620998167008108, guid: c25ac4fdc903e7d49a7520930673ecd6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1957,6 +1957,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   smooth: 8
   swayMultiplayer: 2
+  rotationAmount: 4
+  maxRotationAmount: 20
+  smoothRotation: 12
+  rotationX: 1
+  rotationY: 0
+  rotationZ: 1
 --- !u!1001 &2111752867
 PrefabInstance:
   m_ObjectHideFlags: 0
